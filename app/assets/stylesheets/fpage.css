@@ -1,0 +1,27 @@
+
+body{
+	margin: 0px;
+}
+
+#fpage{
+	background-image: url("/images/fpbg.jpg");
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 800px;
+	
+}
+
+#fpage > div{
+	flex-shrink: 1;
+}
+
+
+#image > img{
+	height: 200px;
+	
+}
+
+
