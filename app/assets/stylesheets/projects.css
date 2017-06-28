@@ -1,6 +1,6 @@
 #projects{
 	height: 1000px;
-	padding: 3%;
+	padding: 1%;
 }
 
 #ptitle{
@@ -8,6 +8,7 @@
 	height: 10%;
 	/*background-color: red;*/
 }
+
 
 
 .col_half { width: 49%; }
@@ -39,13 +40,13 @@
 .wrapper{ 
 	width: 100%;
 	height: 900px;
-	background-color: green;
+	/*background-color: green;*/
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .panel {
-	margin: 0 auto;
+	margin: 0 ;
 	height: 130px;  
 	position: relative;
 	-webkit-perspective: 600px;
@@ -104,7 +105,7 @@
 	-moz-transform: rotateX(0deg) rotateY(0deg);
 }
 .box1{
-	background-color: #14bcc8;
+	background-color: rgba(70, 74, 81,0.7);
 	width: 250px;
 	height: 150px;
 	margin: 0 auto;
@@ -114,9 +115,10 @@
 	-webkit-border-radius: 10px;
 }
 .box2{
-	background-color: #ff7e70;
 	width: 250px;
 	height: 150px;
+	background: no-repeat;
+	background-size: contain;
 	margin: 0 auto;
 	padding: 20px;
 	border-radius: 10px;
