@@ -16,6 +16,8 @@ Rails.application.config.assets.precompile += %w( tpage.css )
 Rails.application.config.assets.precompile += %w( fourp.css )
 Rails.application.config.assets.precompile += %w( lastpage.css )
 Rails.application.config.assets.precompile += %w( bb.css )
+Rails.application.config.assets.precompile += %w( marks.css )
+Rails.application.config.assets.precompile += %w( projects.css )
 
 
 Rails.application.config.assets.precompile += %w( fpage.js )
@@ -24,4 +26,6 @@ Rails.application.config.assets.precompile += %w( connect.js )
 Rails.application.config.assets.precompile += %w( tpage.js )
 Rails.application.config.assets.precompile += %w( fourp.js )
 Rails.application.config.assets.precompile += %w( lastpage.js )
+Rails.application.config.assets.precompile += %w( marks.js )
+Rails.application.config.assets.precompile += %w( projects.js )
 
