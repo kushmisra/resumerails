@@ -49,10 +49,23 @@
 	justify-content: space-around;
 }
 
+.imgdiv{
+	height: 100%;
+	margin-left: 5px;
+	margin-right: 3px;
+}
+
 .details{
+	height: 100%;
 	width: 40%;
 	font-size: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+}
+
+.id{
+	height: 100%;
+	width: 70px;
+	background-color: red;
 }
