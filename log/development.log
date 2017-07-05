@@ -40448,3 +40448,1215 @@ ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js
   Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 15:07:23 +0530
+Processing by IndexController#main as HTML
+  Rendered index/main.html.erb within layouts/application (441.6ms)
+Completed 200 OK in 537ms (Views: 528.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/projects.self-07105c9a1ca8493741fe96f7425a12b5693dd3a4c3259d946d7cd437a110e652.js?body=1" for 127.0.0.1 at 2017-07-05 15:07:23 +0530
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:07:23 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (5.9ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.5ms)
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:07:24 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (52.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 15:07:59 +0530
+Processing by IndexController#main as HTML
+  Rendered index/main.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 131ms (Views: 129.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/projects.self-19788d05f69b62d8bc170d2b287344d68f6bcca41f9f549561871abc229e883a.js?body=1" for 127.0.0.1 at 2017-07-05 15:07:59 +0530
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:07:59 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (25.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (51.9ms)
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:08:00 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 15:08:30 +0530
+Processing by IndexController#main as HTML
+  Rendered index/main.html.erb within layouts/application (44.8ms)
+Completed 200 OK in 184ms (Views: 183.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/projects.self-60bcd8dad3b97c51da59085818bceb7a47fffdebf9c060c6c35a98dcf4c90d98.js?body=1" for 127.0.0.1 at 2017-07-05 15:08:31 +0530
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:08:31 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.8ms)
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:08:31 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (27.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (50.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 15:09:34 +0530
+Processing by IndexController#main as HTML
+  Rendered index/main.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 191ms (Views: 190.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/projects.self-b634be3f66be1cc76185776c57ab59f1e07b14c1cf99a0dbffeaceabdd82150f.js?body=1" for 127.0.0.1 at 2017-07-05 15:09:34 +0530
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:09:34 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.4ms)
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:09:35 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (11.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (44.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 15:10:39 +0530
+Processing by IndexController#main as HTML
+  Rendered index/main.html.erb within layouts/application (422.9ms)
+Completed 200 OK in 524ms (Views: 517.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/projects.self-bcdab0ba899b030ab2f93960bccb6fb38164382a278b8d1925d734c4daaf0c08.js?body=1" for 127.0.0.1 at 2017-07-05 15:10:39 +0530
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:10:40 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (8.3ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (42.0ms)
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:10:40 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (34.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (65.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 15:11:46 +0530
+Processing by IndexController#main as HTML
+  Rendered index/main.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 126ms (Views: 125.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/projects.self-204855211fbfab10ba84199f517716455be3120fe39390d52278f6a152ddd957.js?body=1" for 127.0.0.1 at 2017-07-05 15:11:46 +0530
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:11:46 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (3.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (30.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (53.8ms)
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:11:47 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (61.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 15:13:44 +0530
+Processing by IndexController#main as HTML
+  Rendered index/main.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 170ms (Views: 169.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/projects.self-4cebf56e123da795499f7f10995ca5cd89019a2f83de3c7b05ae31efba73de40.js?body=1" for 127.0.0.1 at 2017-07-05 15:13:45 +0530
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:13:45 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (3.3ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (43.0ms)
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:13:45 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (46.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 15:14:28 +0530
+Processing by IndexController#main as HTML
+  Rendered index/main.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 110ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/projects.self-1205e0199755e0d86d1a3832f02cfb6764b71840b8671a8d30083d25e4ae5c2f.js?body=1" for 127.0.0.1 at 2017-07-05 15:14:28 +0530
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:14:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.3ms)
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:14:28 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (3.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (41.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 15:15:34 +0530
+Processing by IndexController#main as HTML
+  Rendered index/main.html.erb within layouts/application (410.9ms)
+Completed 200 OK in 490ms (Views: 482.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/projects.self-48d069abb6fd5c8d4608dee6bf502487744a959e44723f5d3676f5b77cbe4e6e.js?body=1" for 127.0.0.1 at 2017-07-05 15:15:35 +0530
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:15:35 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (14.0ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (29.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (56.0ms)
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:15:36 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 15:15:53 +0530
+Processing by IndexController#main as HTML
+  Rendered index/main.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 150ms (Views: 149.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/projects.self-23f06d460cd001ada74f4d92e624a1cf5b4763121a08a5bb345ccbccae1c02d2.js?body=1" for 127.0.0.1 at 2017-07-05 15:15:53 +0530
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:15:54 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.7ms)
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:15:54 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (3.5ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 15:17:18 +0530
+Processing by IndexController#main as HTML
+  Rendered index/main.html.erb within layouts/application (32.6ms)
+Completed 200 OK in 161ms (Views: 160.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/projects.self-963b6b8691a5de65a4e75544d02940d67691aafab1d797fcccbe917c8ade944f.js?body=1" for 127.0.0.1 at 2017-07-05 15:17:18 +0530
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:17:18 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.1ms)
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:17:19 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (33.0ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (23.5ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (45.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 15:25:07 +0530
+Processing by IndexController#main as HTML
+  Rendered index/main.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 155ms (Views: 154.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/projects.self-7d53f63169905ba362336c81948ec7d64460a59eb04147fab95146207eff1025.js?body=1" for 127.0.0.1 at 2017-07-05 15:25:07 +0530
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:25:08 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.9ms)
+
+
+Started GET "/javascripts/lastpage.js" for 127.0.0.1 at 2017-07-05 15:25:08 +0530
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/lastpage.js"):
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:38:in `call_app'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  /usr/lib/ruby/vendor_ruby/rails/rack/logger.rb:20:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/engine.rb:518:in `call'
+  /usr/lib/ruby/vendor_ruby/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/lib/ruby/vendor_ruby/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (31.3ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /var/lib/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (75.2ms)

@@ -8,3 +8,24 @@
 			$(this).removeClass('flip');
 		});
 	});
+
+
+	// var tid = setInterval( function () {
+	// 			console.log("i am here");
+ //    			if ( document.readyState !== 'complete' ) return;
+ //    			clearInterval( tid );       
+    
+
+ //    			var hover = document.getElementsByClassName("");
+    			
+ //    			for (var i = 0; i < hover.length; i++) {
+ //    				console.log("adding event");
+ //    				hover[i].addEventListener("mouseover", myFunction);
+	// 			}
+ //    			var myFunction = function(){
+ //    				this.classList.add("flip");
+ //    				console.log("yaha bhi");
+ //    			}
+
+ //    			// do your work
+	// 		  }, 100 );
