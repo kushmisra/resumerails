@@ -1,0 +1,897 @@
+#bbpage{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+}
+
+#bbside{
+	width: 50%;
+	height: 400px;
+	
+}
+
+#bb{
+	width: 50%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+#bbtitle{
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 1%;
+}
+#aboutbb{
+	padding-top: 1%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+	#bbpage{
+		height: 800px;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	#bb{
+		width: 100%;
+		height: 100px;
+	}
+
+	#bbside{
+		width: 100%;
+		height: 700px;
+	}
+	
+
+}
+
+@media only screen and (max-width: 650px) {
+    
+	#bbpage{
+		height: 510px;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	#bb{
+		width: 100%;
+		height: 100px;
+	}
+
+	#bbside{
+		width: 100%;
+		height: 400px;
+	}
+	
+
+}
+#connect{
+	height: 350px;
+	width: 100%;
+	display: flex;
+}
+
+#conside{
+	width: 50%;
+	height: 100%;
+	/*background-color: red;*/
+	background-image: url("/images/connect.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#conside > div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#conside > div > div {
+	width: 15%;
+}
+
+#con{
+	width: 50%;
+	height: 100%;
+	
+	/*background-color: green;*/
+}
+
+#contitle{
+	padding: 3%;
+}
+
+#live{
+	padding: 3%;
+
+	
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    
+	#connect{
+		height: 550px;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	#con{
+		width: 100%;
+		height: 200px;
+	}
+
+	#conside{
+		width: 100%;
+		height: 350px;
+	}
+	
+
+}
+#fourp{
+	width: 100%;
+	height: 504px;
+	display: flex;
+	flex-direction: row;
+}
+
+#nda{
+	width: 50%;
+}
+
+#ndaside{
+	width: 50%;
+}
+
+#ndai{
+	width: 100%;
+	height: 100%;
+}
+
+#ndatitle{
+	padding: 5%;
+}
+
+#ndainfo{
+	display: flex;
+	flex-direction: row;
+	padding:5%;
+}
+
+#helped{
+	margin-left: 3px; 
+	height: 100%; 
+	width: 70%; 
+	border-left-color: rgba(0,0,0,0.4); 
+	border-left-width: 2px; 
+	border-left-style: solid;  
+	padding: 2%;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+	#fourp{
+		height: 1100px;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	#nda{
+		width: 100%;
+		height: 504px;
+	}
+
+	#ndaside{
+		width: 100%;
+		height: 504px;
+	}
+	
+
+}
+
+@media only screen and (max-width: 650px) {
+    
+    #ndainfo > div{
+    	width: 100%;
+    	text-align: center;
+    }
+
+    #fourp{
+		height: 1000px;
+	}
+
+	#ndainfo{
+		flex-direction: column;
+	}
+
+	#ndaside{
+		width: 100%;
+		height: 400px;
+	}
+	
+	#helped{
+		height: 100%;  
+		border-left-style: none;  
+		padding: 2%;
+	}
+
+}
+
+body{
+	margin: 0px;
+}
+
+#fpage{
+	background-image: url("/images/fpbg.jpg");
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 800px;
+	
+}
+
+#fpage > div{
+	flex-shrink: 1;
+}
+
+
+#image > img{
+	height: 200px;
+	
+}
+
+
+#lastpage{
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+#iem{
+	width: 100%;
+	height: 35%;
+}
+
+#ctitle{
+	padding-left: 4.9%;
+	padding-right: 4.9%;
+	padding-top: 4%;
+}
+
+#details{
+	padding-left: 4.9%;
+	padding-right: 4.9%;
+	padding-top: 4%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	line-height: 100%;
+	vertical-align: middle;
+	height: 12%;
+}
+
+#detailsa{
+	display: flex;
+	flex-direction: row;
+}
+
+#add{
+	line-height: 40px;
+	vertical-align: middle;
+	padding-left: 1%;
+	/*background-color: red;*/
+}
+
+#detailsb{
+	display: flex;
+	flex-direction: row;
+}
+
+#mail{
+	line-height: 40px;
+	vertical-align: middle;
+	padding-left: 1%;
+	/*background-color: red;*/
+}
+#detailsc{
+	display: flex;
+
+	flex-direction: row;
+}
+
+
+#tele{
+	line-height: 40px;
+	vertical-align: middle;
+	padding-left: 1%;
+	/*background-color: red;*/
+}
+
+#map{
+	height: 100%;
+	width: 50%;
+}
+
+#mapside{
+	height: 100%;
+	width: 50%;
+}
+.lai{
+	height: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+	#lastpage{
+		height: 900px;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	#map{
+		width: 100%;
+		height: 300px;
+	}
+
+	#mapside{
+		width: 100%;
+		height: 600px;
+	}
+	
+	.lai{
+		height: 45px;
+	}
+
+}
+
+@media only screen and (max-width: 620px) {
+    
+	#details{
+		flex-direction: column;
+		justify-content: space-around;
+		height: 30%;
+	}
+	#details > div{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.lai{
+		height: 30px;
+	}
+
+
+}
+
+@media only screen and (max-width: 330px) {
+    
+	#mail{
+		font-size: 15px;
+	}
+
+	.lai{
+		height: 20px;
+	}
+
+}
+#marks{
+	height: 1000px;
+	padding: 3%;
+}
+
+#mtitle{
+	width: 100%;
+	height: 10%;
+	/*background-color: red;*/
+}
+#mreport{
+	padding-top: 5px;
+	width: 100%;
+	height: 900px;
+}
+
+.entry{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 80px;
+	/*background-color: red;*/
+}
+
+.image{
+	height: 100%;
+	width: 300px;
+	/*background-color: blue;*/
+	position: relative;
+}
+
+.img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.leftdiv{
+	display: flex;
+	flex-direction: row;
+}
+
+.date{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.imgdiv{
+	height: 100%;
+	margin-left: 5px;
+	margin-right: 3px;
+}
+
+.details{
+	height: 100%;
+	width: 40%;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.id{
+	height: 100%;
+	width: 70px;
+	background-color: red;
+}
+#projects{
+	height: 1000px;
+	padding: 2%;
+}
+
+#ptitle{
+	width: 100%;
+	height: 10%;
+	/*background-color: red;*/
+}
+
+
+
+.col_half { width: 49%; }
+.col_third { width: 32%; }
+.col_fourth { width: 23.5%; }
+.col_fifth { width: 18.4%; }
+.col_sixth { width: 15%; }
+.col_three_fourth { width: 74.5%;}
+.col_twothird{ width: 66%;}
+.col_half,
+.col_third,
+.col_twothird,
+.col_fourth,
+.col_three_fourth,
+.col_fifth{
+	position: relative;
+	display:inline;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 20px;
+}
+.end { margin-right: 0 !important; }
+
+/*-=-=-=-=-=-=-=-=-=-=- */
+/* Flip Panel */
+/*-=-=-=-=-=-=-=-=-=-=- */
+
+.wrapper{ 
+	width: 100%;
+	height: 900px;
+	/*background-color: green;*/
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.panel {
+	margin: 0 ;
+	height: 130px;  
+	position: relative;
+	-webkit-perspective: 600px;
+	-moz-perspective: 600px;
+}
+
+.panel .front,
+.panel .back {
+	text-align: center;
+}
+	
+.panel .front {
+	height: inherit;
+	position: absolute;
+	top: 0;
+	z-index: 900;
+	text-align: center;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	   -moz-transform: rotateX(0deg) rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+
+.panel .back {
+	height: inherit;
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+	-webkit-transform: rotateY(-180deg);
+	   -moz-transform: rotateY(-180deg);
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+.panel.flip .front {
+	z-index: 900;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+}
+.panel.flip .back {
+	z-index: 1000;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+}
+.box1{
+	background-color: rgba(70, 74, 81,0.7);
+	width: 250px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.box2{
+	width: 250px;
+	height: 150px;
+	background: no-repeat;
+	background-size: contain;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#spage{
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+	width: 100%;
+}
+
+
+
+#eduside{
+	background-image: url("/images/spage.jpg");
+	background-size: cover;
+	
+	width: 50%;
+
+}
+
+
+
+#cc{
+	height: 150px;
+	width: 300px;
+}
+
+#sc{
+	height: 150px;
+	width: 300px;
+}
+
+#education{
+	padding: 2%;
+	width: 50%;
+}
+
+#school{
+	width: 100%;
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#college{
+	width: 100%;
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.type{
+	width: 20%;
+}
+
+.seperation{
+	width: 3%;
+	border-right-style: solid;
+	border-right-color: rgba(128,128,128,0.8);
+}
+.des{
+	width: 60%;
+}
+
+@media only screen and (max-width: 1200px) {
+    #spage{
+    	flex-direction: column;
+    	height: 800px;
+    }
+
+    #eduside{
+    	width: 100%;
+    	height: 400px;
+    }
+
+    #education{
+    	width: 90%;
+    	height: 400px;
+    }
+
+}
+
+
+@media only screen and (max-width: 674px) {
+    
+    #edusidea > div{
+    	width: 100%;
+    
+    }
+
+    #edusidea{
+    	width: 100%;
+    	height: 100%;
+    	flex-direction: column;
+    	flex-wrap: wrap;
+    }
+
+    #spage{
+    	height: 1000px;
+    }
+    #eduside{
+    	height: 450px;
+    }
+
+}
+#tpage{
+	height: 1000px;
+	padding: 3%;
+}
+
+#ttitle{
+	width: 100%;
+	height: 10%;
+	/*background-color: red;*/
+}
+
+#tcon{
+	width: 100%;
+	height: 900px;
+	/*background-color: green;*/
+	display: flex;
+	flex-wrap: wrap;
+  	font-family: 'Ubuntu', sans-serif;
+  	width:960px;
+}
+
+p{
+  color:#525252;
+  font-size:12px;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    
+	#tpage{
+		height: 1700px;
+	}
+	#tcon{
+		height:  1680px;
+	}
+
+
+}
+
+
+
+@media only screen and (max-width: 674px) {
+    
+    
+	#tpage{
+		height: 1700px;
+	}
+
+	#tcon{
+		height:  1680px;
+	}
+	#tcon>div{
+		width: 100%;
+		height: 80px;
+		margin-bottom: 0.5%;
+	}
+
+
+}
+
+@media only screen and (max-width: 540px) {
+    
+    
+	#tpage{
+		height: 1700px;
+	}
+
+#tcon{
+		height:  1680px;
+	}
+	#tcon>div{
+		width: 80%;
+		height: 60px;
+		margin-bottom: 0.2%;
+	}
+
+
+}
+
+@media only screen and (max-width: 470px) {
+    
+    
+	#tpage{
+		height: 1700px;
+	}
+#tcon{
+		height:  1680px;
+	}
+	#tcon>div{
+		width: 100%;
+		height: 55px;
+		margin-bottom: 0.5%;
+	}
+
+
+}
+
+@media only screen and (max-width: 420px) {
+    
+    
+	#tpage{
+		height: 1700px;
+	}
+
+	#tcon>div{
+		width: 100%;
+		height: 50px;
+		margin-bottom: 0.5%;
+	}
+
+
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

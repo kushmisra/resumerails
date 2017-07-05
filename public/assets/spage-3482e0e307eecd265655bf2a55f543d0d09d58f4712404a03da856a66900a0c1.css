@@ -1,0 +1,104 @@
+#spage{
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+	width: 100%;
+}
+
+
+
+#eduside{
+	background-image: url("/images/spage.jpg");
+	background-size: cover;
+	
+	width: 50%;
+
+}
+
+
+
+#cc{
+	height: 150px;
+	width: 300px;
+}
+
+#sc{
+	height: 150px;
+	width: 300px;
+}
+
+#education{
+	padding: 2%;
+	width: 50%;
+}
+
+#school{
+	width: 100%;
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#college{
+	width: 100%;
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.type{
+	width: 20%;
+}
+
+.seperation{
+	width: 3%;
+	border-right-style: solid;
+	border-right-color: rgba(128,128,128,0.8);
+}
+.des{
+	width: 60%;
+}
+
+@media only screen and (max-width: 1200px) {
+    #spage{
+    	flex-direction: column;
+    	height: 800px;
+    }
+
+    #eduside{
+    	width: 100%;
+    	height: 400px;
+    }
+
+    #education{
+    	width: 90%;
+    	height: 400px;
+    }
+
+}
+
+
+@media only screen and (max-width: 674px) {
+    
+    #edusidea > div{
+    	width: 100%;
+    
+    }
+
+    #edusidea{
+    	width: 100%;
+    	height: 100%;
+    	flex-direction: column;
+    	flex-wrap: wrap;
+    }
+
+    #spage{
+    	height: 1000px;
+    }
+    #eduside{
+    	height: 450px;
+    }
+
+}
